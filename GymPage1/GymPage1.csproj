@@ -1,10 +1,100 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<!doctype html>
+<html>
+	<head>
+		<title>Ryan's Workouts</title>
+	</head>
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<body>
+		<header>
+			<img src="/headimg.jpg" width="400">
+				<h1>Want to build muscle and look good?</h1>
+				<h2>Welcome to my website!</h2>
+			</header>
 
-</Project>
+		<main>
+			<nav>
+				<p>
+					Quick Links
+				</p>
+				<ul>
+					<li>
+						<a href="Weeklyplan.html">Weekly Routine Plan</a>
+					</li>
+					<li>
+						<a href="MuscleGroups.html">Muscle Groups</a>
+					</li>
+					<li>
+						<a href="routines.html">Routines</a>
+					</li>
+					<li>
+						<a href="Exercises.html">Exercises</a>
+					</li>
+					<li>
+						<a href="https://www.jamessmithacademy.com/macro-calculator">Macro Calculator</a>
+					</li>
+					<li>
+						<a href="recipes.html">Meal Prep</a>
+					</li>
+					<li>
+						<a href="running.html">Running</a>
+					</li>
+				</ul>
+			</nav>
+			<br>
+
+				<div>
+					<h2>About Me</h2>
+					<p>
+						<strong>Hey! </strong>
+						<br>
+							<br>
+								My names <strong>Ryan </strong>and I am a <strong>Business Analyst </strong>trying to learn <strong>HTML. </strong><br>
+									<br>
+        I have decided to create this website as a project to test my HTML knowledge and hopefully help you get into shape!
+      
+					</p>
+				</div>
+
+				<section id="Intro">
+					<h3>My weight loss journey</h3>
+					<p>
+						I used to be <strong>19 stone</strong>, lifting the same weights over and over week on week and getting zero progress.
+					</p>
+
+					<img src="/Fat1.jpg" width="150" title="Fattie1" alt="19 stone me">
+						<img src="/fat2.jpg" width="150" title="Fattie2" alt="19 stone me">
+							<img src="/fat3.jpg" width="150" title="Fattie3" alt="19 stone me">
+    </section>
+				<br>
+
+					<section>
+						<div>
+							<p>
+								I had been lifting weights for around 4 years but my body composition stayed the same and i lost <strong>zero </strong>weight. I decided <strong>enough was enough!</strong><br>
+									I had wanted to start running for a while and instead of being sensible i went for my usual approach... <strong>all in or nothing!</strong> I signed up for a local half marathon and set myself on a mission to go from 0 miles to 13.1 within 6 months.
+								</p>
+						</div>
+						<br>
+							<div id="Running">
+								<h3>So I started running</h3>
+								<p>
+									With <strong>six months to go </strong>and <strong>zero running experience... </strong>I laced up my trainers, charged up my earphones and started the <a href="https://www.nhs.uk/live-well/exercise/get-running-with-couch-to-5k/"> Couch to 5k</a>. Within 9 weeks i recorded my <strong>first 5k </strong>with a time of <strong>42 minutes and 39 seconds.</strong>
+								</p>
+								<img src="first5k.png" width="470" title="My first 5k" alt="My first 5k">
+      </div>
+
+
+						</section>
+				</main>
+	</body>
+
+
+
+
+
+
+
+
+
+
+</html>
