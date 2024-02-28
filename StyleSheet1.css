@@ -10,5 +10,6 @@ header
 
 table 
 {
-    border: 1px color black;
+    border: 1px;
+    color: black;
 }
