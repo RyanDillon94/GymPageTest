@@ -1,7 +1,14 @@
 ﻿p 
-{color: green;
+{
+    color: green;
  }
-header 
-{color: blue;
 
+header 
+{ 
+    color: blue;
+}
+
+table 
+{
+    border: 1px color black;
 }
