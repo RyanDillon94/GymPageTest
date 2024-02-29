@@ -1,7 +1,31 @@
-﻿p {
-    color: green;
- }
+p { 
+    color: #3cff2d
+}
 
-header { 
-    color: blue;
+h3 {
+  font-family: cursive;
+}
+
+body {
+  background: linear-gradient( black, darkblue);
+}
+
+table {
+  background-color: red;
+}
+
+td {
+  color: aqua;
+}
+
+nav {
+  font-weight: bold;
+}
+
+* {
+  color: white;
+}
+
+footer {
+  font-weight: bold;
 }
