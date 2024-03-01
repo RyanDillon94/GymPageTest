@@ -26,9 +26,14 @@ body {
 }
 
 nav {
-  font-weight: bold;
-  float: right;
-  font-size: 30px;
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+li::marker {
+    color: white;
 }
 
 #ql {
