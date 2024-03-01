@@ -1,5 +1,15 @@
 h3 { 
-    color: #3cff2d
+    color: #3cff2d;
+    font-size: 30px;
+      font-family: cursive;
+  text-transform: capitalize;
+  text-shadow:
+   3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+
 }
 
 h4 {
@@ -10,46 +20,54 @@ strong {
   color: #3cff2d;
 }
 
-h3 {
-  font-family: cursive;
-  text-transform: capitalize;
-}
-
 body {
     background-image: url("/images/check3.jpg");
     background-size: 100% 50%;
     background-repeat: repeat-y;
+    margin: auto;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
 }
 
 #images {
-    width: 400px;
-    height: 1000px
+    width: 23%;
+    height: 300px;
+}
+
+.image{
+  width: 30%;
 }
 
 nav {
     font-weight: bold;
     float: right;
-    font-size: 30px;
     list-style-type: none;
-    border: dashed 2px White;
+    margin: 10%;
+    padding-left: 0%;
+    white-space: nowrap;
+    width: 30%;
+    font-size: 1.5vh;
 }
 
 li::marker {
     color: white;
 }
 
-#ql {
-  color: white;
+.ql {
+  color: #3cff2d;
   font-weight: bold;
   text-transform: capitalize;
-  list-style-type: none;
+font-family: cursive;
+  
 }
 
 p {
-  color: white;
-  font-size: 20px;
-  height: 80px;
-  width: 1500px;
+  color:white;
+  font-size: 15px;
+  margin: 20px;
 }
 
 footer {
@@ -72,6 +90,7 @@ th {
 
 th, td {
   border: 2px solid #3cff2d;
+  font-size: 1.5em;
 }
 
 a {
