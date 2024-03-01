@@ -1,5 +1,9 @@
-p { 
+h3 { 
     color: #3cff2d
+}
+
+strong {
+  color: #3cff2d;
 }
 
 h3 {
@@ -8,12 +12,11 @@ h3 {
 }
 
 body {
-  background-image: url("/images/b4.jpeg");
-  background-size: 500px 800px;
+  background-image: url("/images/check.jpg")
 }
 
 #bgi {
-  
+
 }
 
 nav {
@@ -28,7 +31,7 @@ nav {
   list-style-type: none;
 }
 
-* {
+p {
   color: white;
 }
 
@@ -61,4 +64,8 @@ a {
 
 #top {
   text-align: center;
+}
+
+h1, h2 {
+  color: White;
 }
