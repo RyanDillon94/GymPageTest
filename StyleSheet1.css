@@ -20,6 +20,7 @@ body {
     background-size: 100% 50%;
     background-repeat: repeat-y;
 }
+
 #images {
     width: 400px;
     height: 1000px
@@ -30,6 +31,7 @@ nav {
     float: right;
     font-size: 30px;
     list-style-type: none;
+    border: dashed 2px White;
 }
 
 li::marker {
@@ -46,6 +48,8 @@ li::marker {
 p {
   color: white;
   font-size: 20px;
+  height: 80px;
+  width: 1500px;
 }
 
 footer {
