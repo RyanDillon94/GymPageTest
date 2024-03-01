@@ -2,6 +2,10 @@ h3 {
     color: #3cff2d
 }
 
+h4 {
+    color: white;
+}
+
 strong {
   color: #3cff2d;
 }
@@ -12,20 +16,19 @@ h3 {
 }
 
 body {
-    background: linear-gradient(blue, black);
+    background-image: url("/images/check3.jpg");
+    background-size: 100% 50%;
+    background-repeat: repeat-y;
 }
-
-#bgi {
-    background-image: url("/images/check.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 100% 100%;
-    padding: 0px;
+#images {
+    width: 400px;
+    height: 1000px
 }
 
 nav {
   font-weight: bold;
   float: right;
+  font-size: 30px;
 }
 
 #ql {
@@ -48,7 +51,7 @@ table {
   background-color: black;
   color: white;
   font-weight: bold;
-  width: 100%;
+  width: 75%;
   border: 2px solid red;
   text-align: center;
 }
