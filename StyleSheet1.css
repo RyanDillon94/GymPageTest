@@ -41,6 +41,10 @@ height: 300px;
 width: 30%;
 }
 
+.image1 {
+  width: 50%;
+}
+
 nav {
 font-weight: bold;
 float: right;
@@ -121,4 +125,8 @@ text-align: center;
 
 h1, h2, h5 {
 color: White;
+}
+
+form input {
+  width: 75%;
 }
